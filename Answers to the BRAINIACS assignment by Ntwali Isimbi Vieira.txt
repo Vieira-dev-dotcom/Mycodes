@@ -1,4 +1,4 @@
-QUESTION 1:What is the output of this program?
+//QUESTION 1:What is the output of this program?
 
 
 
@@ -9,7 +9,7 @@ int main() {
     int x = 5, y = 7, z = 10;
     int a = 15, b = 20, c = 30;
 
-    int result1 = ((x++) * (y--)) + ((++z) / 2);// We should concider that when there is a post increment or decrement the compiler will first use the value in the equation and after increment the the value later:the x and y will not change in  the execution of the equation above. 
+    int result1 = ((x++) * (y--)) + ((++z) / 2);// We should consider that when there is a post increment or decrement the compiler will first use the value in the equation and after increment the the value later:the x and y will not change in  the execution of the equation above. 
     printf("x = %d, y = %d, z = %d, result1 = %d\n", x, y, z, result1);
 
 
@@ -36,9 +36,9 @@ int main() {
 
 
 //ANSWERS :
-Will output the following : X = 5, Y = 7 , z = 11 , result 1 = 40
-X = 6 , Y = 6 , Z = 10 , result2 = 37
-A = 15 , B = 20 , C = 29 , result3 = 164
+//Will output the following : X = 5, Y = 7 , z = 11 , result 1 = 40
+//X = 6 , Y = 6 , Z = 10 , result2 = 37
+//A = 15 , B = 20 , C = 29 , result3 = 164
 
 
 
